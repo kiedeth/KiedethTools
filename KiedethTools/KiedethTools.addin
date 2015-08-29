@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command KiedethTools</Text>
+    <Description>Some description for KiedethTools</Description>
+    <Assembly>KiedethTools.dll</Assembly>
+    <FullClassName>KiedethTools.Command</FullClassName>
+    <ClientId>cb99d523-c256-478b-b89b-1368f310738c</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application KiedethTools</Name>
+    <Assembly>KiedethTools.dll</Assembly>
+    <FullClassName>KiedethTools.App</FullClassName>
+    <ClientId>f3f4bee4-dbf3-4d89-8bd4-a39805fc7555</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
