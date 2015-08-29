@@ -19,6 +19,8 @@ namespace KiedethTools
 		public Result OnShutdown (UIControlledApplication a)
 		{
 			return Result.Succeeded;
+			// git revert test
+
 		}
 	}
 }
